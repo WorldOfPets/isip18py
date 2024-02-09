@@ -13,6 +13,6 @@ sync_engine = create_engine(
     # pool_size=5,
     # max_overflow=10,
 )
-with sync_engine.connect() as conn:
-    res = conn.execute(text("select sqlite_version();"))
-    print(f"{res=}")
+# with sync_engine.connect() as conn:
+#     res = conn.execute(text("select sqlite_version();"))
+#     print(f"{res=}")
